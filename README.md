@@ -17,3 +17,31 @@ This research project focuses on predicting house prices in the Indian real esta
 ✅ Implement Linear Regression, Random Forest, and Decision Tree models for predictive analysis.
 ✅ Compare models based on performance metrics (R², RMSE, MAE, etc.).
 ✅ Provide insights into domain-specific real estate applications using data-driven techniques.
+
+
+📊 Machine Learning Techniques Used
+Model	R² Score	RMSE	MAE	Dataset
+Random Forest	High	Low	Low	Indian Dataset
+Decision Tree	Moderate	Medium	Medium	Indian Dataset
+Linear Regression	Low	High	High	Indian Dataset
+🔹 Key Finding: Random Forest performed best in predicting house prices in India.
+🔹 Feature Importance Analysis helped identify top influencing property attributes.
+🔹 Model Performance Varied due to dataset characteristics, outliers, and feature selection.
+
+🛠️ Technologies & Tools Used
+Python 🐍
+Pandas & NumPy (Data Preprocessing)
+Matplotlib & Seaborn (Data Visualization)
+Scikit-Learn (Regression Models)
+Kaggle Dataset (House Price Data)
+
+📌 Results & Insights
+✅ Random Forest was the best-performing model for house price prediction.
+✅ Feature engineering & preprocessing significantly impacted accuracy.
+✅ Linear regression had poor performance due to nonlinear dependencies in the dataset.
+✅ Decision trees provided interpretability but were prone to overfitting.
+
+📌 Future Work
+✔ Explore Deep Learning models (e.g., ANN, CNN) for better predictions.
+✔ Feature Engineering: Incorporate location-based features & external economic indicators.
+✔ Develop a web-based tool for users to predict house prices dynamically.
